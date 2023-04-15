@@ -1,0 +1,44 @@
+header {
+    text-align: center;
+    font-size: 30px;
+}
+
+#myDiv {
+    height: 800px;
+    background-color: black;
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    grid-template-areas: 'myArea .' 'myArea .';
+}
+
+#myDiv div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.box1 {
+    background-color: white;
+    display: grid;
+    grid-gap: 10px;
+    grid-area: myArea;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    margin: auto;
+}
+
+.box1 > div {
+    padding: 5px;
+    background-color: yellow;
+    display: grid;
+    place-items: center;
+}
+
+.box2 {
+    background-color: white;
+}
+
+.box3 {
+    background-color: white;
+}

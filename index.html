@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gobble Up Tic Tac Toe</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+</head>
+<body>
+    <header>Gobble Up Tic Tac Toe!!</header>
+    <!-- <div class="startScreen">
+        <h2>Welcome to Gobble Up Tic Tac Toe!</h2>
+        <p>The rules of this game are the same as Tic Tac Tor but with a twist!</p>
+        <p>The bigger pieces can 'Gobble Up' the smaller pieces so be careful how you strategize!</p>
+        <p>Choose the following:</p>
+        <button id="start-btn">2 Player Mode</button>
+        <button id="start-comp">Player vs Computer</button>
+    </div> -->
+    <div id="myDiv">
+        <div class="box1">
+            <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div id="div5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div id="div6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div id="div7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div id="div8" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div id="div9" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        </div>
+        <div class="box2">
+            <p>Player 1</p>
+            <img src="C:\Users\olivia hu\Documents\SEIF13\projectone\images\pumpkinhead.jpg" width="150" id="drag1" draggable="true" size="3" ondragstart="drag(event)" player="1">
+            <img src="C:\Users\olivia hu\Documents\SEIF13\projectone\images\pumpkinhead.jpg" width="150" id="drag2" draggable="true" size="3" ondragstart="drag(event)" player="1"> </br>
+            <img src="C:\Users\olivia hu\Documents\SEIF13\projectone\images\pumpkinhead.jpg" width="100" id="drag3" draggable="true" size="2" ondragstart="drag(event)" player="1">
+            <img src="C:\Users\olivia hu\Documents\SEIF13\projectone\images\pumpkinhead.jpg" width="100" id="drag4" draggable="true" size="2" ondragstart="drag(event)" player="1">
+            <img src="C:\Users\olivia hu\Documents\SEIF13\projectone\images\pumpkinhead.jpg" width="50" id="drag5" draggable="true" size="1" ondragstart="drag(event)" player="1">
+            <img src="C:\Users\olivia hu\Documents\SEIF13\projectone\images\pumpkinhead.jpg" width="50" id="drag6" draggable="true" size="1" ondragstart="drag(event)" player="1">
+        </div>
+        <div class="box3">
+            <p>Player 2</p>
+            <img src="C:\Users\olivia hu\Documents\SEIF13\projectone\images\—Pngtree—cobwebs ghosts halloween_3466655.png" width="150" id="ghost1" size="3" draggable="true" ondragstart="drag(event)" player="2">
+            <img src="C:\Users\olivia hu\Documents\SEIF13\projectone\images\—Pngtree—cobwebs ghosts halloween_3466655.png" width="150" id="ghost2" size="3" draggable="true" ondragstart="drag(event)" player="2"></br>
+            <img src="C:\Users\olivia hu\Documents\SEIF13\projectone\images\—Pngtree—cobwebs ghosts halloween_3466655.png" width="100" id="ghost3" size="2" draggable="true" ondragstart="drag(event)" player="2">
+            <img src="C:\Users\olivia hu\Documents\SEIF13\projectone\images\—Pngtree—cobwebs ghosts halloween_3466655.png" width="100" id="ghost4" size="2" draggable="true" ondragstart="drag(event)" player="2">
+            <img src="C:\Users\olivia hu\Documents\SEIF13\projectone\images\—Pngtree—cobwebs ghosts halloween_3466655.png" width="50" id="ghost5" size="1" draggable="true" ondragstart="drag(event)" player="2">
+            <img src="C:\Users\olivia hu\Documents\SEIF13\projectone\images\—Pngtree—cobwebs ghosts halloween_3466655.png" width="50" id="ghost6" size="1" draggable="true" ondragstart="drag(event)" player="2">
+        </div>
+    </div>
+</body>
+</html>
